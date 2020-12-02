@@ -1,0 +1,308 @@
+/* 头部样式 */
+.head {
+    width: 100%;
+    height: 10.4rem;
+    background-image: url(../img/top_banner.png);
+    background-size: 19.2rem 10.8rem;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.Navigation_bar {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.2rem;
+}
+
+.logo>img {
+    width: 60%;
+}
+
+.Navigation {
+    width: 60%;
+    padding-left: 4%;
+}
+
+.Navigation_a {
+    width: 0.4rem;
+    font-size: 0.18rem;
+    padding: 0 0.1rem;
+}
+
+#home_link{
+    padding-bottom: 2px;
+    border-bottom: solid black 1px;
+}
+
+.Navigation_end {
+    width: 10%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Navigation_end>img {
+    width: 15%;
+}
+
+.head_middle {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.head_middle>h1 {
+    color: #3e250e;
+    font-size: 0.96rem;
+}
+
+.head_middle>p {
+    color: #3e250e;
+    font-size: 0.2rem;
+}
+
+.head_end {
+    position: absolute;
+    top: 58%;
+    right: 10%;
+    flex-direction: column;
+}
+
+.head_end>p {
+    color: #80542b;
+    font-size: 0.14rem;
+}
+
+.head_end_tilt {
+    transform: rotate(60deg);
+    color: #80542b;
+    font-size: 0.14rem;
+}
+
+.head_end_spot {
+    text-align: center;
+}
+
+/* 内容区1样式 */
+.Content_area_one {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding: 1rem 0;
+}
+
+.Content_area_one_text {
+    width: 44%;
+    height: 60%;
+    margin: auto 0;
+    padding-right: 10%;
+}
+
+.Content_area_one_text>h1 {
+    font-size: 0.96rem;
+    line-height: 1rem;
+}
+
+.Content_area_one_text>p {
+    padding-top: 10%;
+    font-size: 0.12rem;
+}
+
+.Content_area_one_picture {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Content_area_one_picture>img {
+    width: 30%;
+}
+
+/* 产品展示 */
+.Product_introduction {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.Product_introduction_title {
+    width: 100%;
+    text-align: center;
+}
+
+.Product_introduction_title>p {
+    font-size: 0.18rem;
+}
+
+.Product_introduction_title>h1 {
+    font-size: 0.24rem;
+}
+
+.commodity {
+    width: 100%;
+}
+
+.Product_picture {
+    padding-top: 0.4rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Product_picture>img {
+    width: 18%;
+    height: 20%;
+}
+
+.Trade_name {
+    padding-top: 0.3rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.commodity_price {
+    padding-top: 0.1rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 内容区2 */
+.Content_area_two {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.brochure {
+    width: 30%;
+    padding-right: 10%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.brochure>img {
+    width: 100%;
+}
+
+.brochure>h1 {
+    width: 100%;
+    font-size: 0.24rem;
+}
+
+.brochure>p {
+    width: 100%;
+    font-size: 0.12rem;
+    margin: 0.2rem 0;
+}
+
+.brochure>button {
+    margin: 0 auto;
+    padding: 0.08rem 0.15rem;
+    border: black 1px solid;
+}
+
+.recommend {
+    width: 60%;
+    text-align: center;
+}
+
+.Recommended_pictures {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Recommended_pictures>img {
+    width: 30%;
+}
+
+.Recommended_introduction {
+    width: 100%;
+}
+
+.Recommended_introduction>h1 {
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    margin-top: 0.40rem;
+}
+
+.Recommended_introduction>p {
+    font-size: 0.12rem;
+    /* line-height: 0.24rem; */
+    margin: 0.2rem 0;
+}
+
+.bottom_box {
+    width: 100%;
+    border-top: #f3f3f3 0.06rem solid;
+}
+
+.bottom {
+    width: 80%;
+    margin: 0.2rem auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bottom_navigation_bar>a {
+    font-size: 0.14rem;
+    padding: 0 0.2rem;
+}
+
+.contact_number {
+    font-size: 0.24rem;
+    color: #3e250e;
+}
+
